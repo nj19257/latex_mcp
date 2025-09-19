@@ -12,7 +12,7 @@ from fastmcp import FastMCP
 # Initialize FastMCP server
 mcp = FastMCP("semantic-scholar-mcp")
 
-api_key = "bixyxI6M9xBxk6xdHSjSiFchMAhpGOg8"
+api_key = ""
 client = Mistral(api_key=api_key)
 # Base URL for the Semantic Scholar API
 BASE_URL = "https://api.semanticscholar.org/graph/v1"
