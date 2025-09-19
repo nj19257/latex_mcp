@@ -265,7 +265,7 @@ async def read_paper(paper_id: str):
     url = f"https://www.semanticscholar.org/paper/{paper_id}"
     
     try:
-        app = AsyncFirecrawlApp(api_key='fc-705149bad33a4c32a8a67ce742eaf134')
+        app = AsyncFirecrawlApp(api_key='')
         response = await app.scrape_url(
             url=url,		
             formats= [ 'html' ],
